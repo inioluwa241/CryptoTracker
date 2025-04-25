@@ -1,0 +1,24 @@
+.wrapper { overflow-x: auto; padding: 1rem; }
+.table { width: 100%; border-collapse: collapse; }
+.table tr {
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.table .star-icon:hover {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffeaa7;
+}
+
+.table th, .table td { padding: 0.75rem; text-align: left; }
+.green { color: green; }
+.red   { color: red; }
+.table img    { vertical-align: middle; margin-right: 0.5rem; }
